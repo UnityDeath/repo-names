@@ -1,0 +1,165 @@
+/* Стили для шапки и навигации */
+header {
+    background-color: rgb(199, 127, 45);
+    color: #000000;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Стили для секции "Главная" */
+#home {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#home h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Стили для секции "Продукты" */
+#products {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.product {
+    max-width: 300px;
+    margin: 0 auto 30px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Стили для секции "Услуги" */
+#services {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.service {
+    max-width: 300px;
+    margin: 0 auto 30px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Стили для секции "Справка" */
+#reference{
+    background-color: #f0f0f0;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Стили для секции "Контакты" */
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #666;
+}
+
+address {
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Стили для кнопки "Наверх" */
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20
+}
+
+/* Стили для планшетов  */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        margin-right: 15px;
+    }
+}
+
+/* Стили для больших экранов  */
+@media screen and (min-width: 1024px) {
+    
+}
